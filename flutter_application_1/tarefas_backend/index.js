@@ -13,11 +13,11 @@ app.use(bodyParser.json());
 
 // Configuração da conexão com o banco de dados PostgreSQL
 const pool = new Pool({
-  user: 'postgres',             // Usuário do PostgreSQL
-  host: 'localhost',            // Host do PostgreSQL
-  database: 'postgres',         // Nome do banco de dados
-  password: '123456',           // Senha do PostgreSQL
-  port: 5432,                   // Porta padrão do PostgreSQL
+  user: 'grace_db_hugj_user',             
+  host: 'dpg-cshr1c68ii6s73bkd95g-a',           
+  database: 'grace_db_hugj',         
+  password: 'zWsrF2I7xuydH6fCrxgfTjfOHTButzfv',          
+  port: 5432,                   
 });
 
 // Teste de conexão ao banco de dados
